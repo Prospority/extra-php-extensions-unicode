@@ -27,7 +27,6 @@ ENV EXT_CONFIGURE_OPTS=" \
     "
 RUN ./configure \
     --disable-static \
-    --enable-gd-jis-conv \
     --enable-shared \
     ${EXT_CONFIGURE_OPTS} \
     ;
